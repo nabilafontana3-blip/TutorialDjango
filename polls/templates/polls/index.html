@@ -1,0 +1,44 @@
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No hay encuestas disponibles.</p>
+{% endif %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nabi Dev | Lab</title>
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+</head>
+<body>
+
+    <h1 class="cyber-title">MIS ENCUESTAS</h1>
+
+    <div class="content-box">
+        {% if latest_question_list %}
+            <ul class="quiz-list">
+            {% for question in latest_question_list %}
+                <li>
+                    <a href="{% url 'polls:detail' question.id %}">
+                        {{ question.question_text }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hay preguntas cargadas.</p>
+        {% endif %}
+    </div>
+
+    <div class="signature">
+        <p>Nabi ⚡</p>
+    </div>
+
+</body>
+</html>
+{% load static %}

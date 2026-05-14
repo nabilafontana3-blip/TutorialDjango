@@ -1,0 +1,112 @@
+body {
+    background-color: #0d0216; 
+    color: #e0b0ff; 
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+}
+
+h1 {
+    color: #bf94ff;
+    text-shadow: 0 0 10px #bf94ff, 0 0 20px #7a28cb;
+    border-bottom: 2px solid #7a28cb;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+li a {
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #e0b0ff;
+    padding-left: 10px;
+}
+body {
+    background-color: #0d0216; /* Fondo oscuro lila */
+    color: #e0b0ff; /* Texto lila claro */
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+}
+
+h1 {
+    color: #bf94ff;
+    text-shadow: 0 0 10px #bf94ff, 0 0 20px #7a28cb;
+    border-bottom: 2px solid #7a28cb;
+    display: inline-block;
+}
+
+li a {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #e0b0ff;
+}
+/* Contenedor para ordenar todo al centro */
+.main-container {
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 2px solid #7a28cb; /* Una línea decorativa al costado */
+}
+
+.quiz-list {
+    list-style: none; /* Quita los puntitos de la lista */
+    padding-left: 0;
+}
+
+.quiz-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(122, 40, 203, 0.1); /* Un fondo lila muy sutil */
+    border-radius: 5px;
+}
+
+.footer-retro {
+    margin-top: 50px;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+/* Estilo para el título principal */
+.cyber-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Espaciado para las preguntas */
+.quiz-list li {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+/* Estilo para tu firma */
+.signature {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #bf94ff;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #7a28cb;
+}
+body {
+    background: #0d0216 url("images/background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+body {
+    background: #0d0216 url("images/background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+body {
+    /* Esta línea es la que pide el tutorial para el paso 6 */
+    background: #0d0216 url("images/background.jpg") no-repeat fixed center;
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    
+    color: #bf94ff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
